@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/reculabov?serverTimezone=UTC
+    username: root
+    password: asd123
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      dialect: org.hibernate.dialect.MySQL8Dialect
+      driverClassName: com.mysql.cj.jdbc.Driver
+    database: mysql
